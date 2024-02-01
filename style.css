@@ -49,6 +49,16 @@
   text-align: center;
   padding: 20px;
   margin: 20px auto;
-  height: 200px;
+  height: 250px;
   border: 2px dashed #007bff;
 }
+
+#my-dropzone > img{
+    width: 12%;
+}
+
+
+#mydropzone .dz-message{
+   display: none;
+}
+

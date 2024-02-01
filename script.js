@@ -30,4 +30,3 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
   reader.readAsText(file)
 });
 
-
