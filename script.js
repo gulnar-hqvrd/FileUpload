@@ -18,6 +18,11 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
   }
 
   const reader = new FileReader();
+  
+  
+  
+  
+  
   reader.onload = (e) => {
     const content = e.target.result;
     const lines = content.split('\n')
